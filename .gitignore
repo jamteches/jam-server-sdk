@@ -1,0 +1,31 @@
+# Dependencies
+.packages
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Build
+build/
+*.js.deps
+*.js.map
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Generated
+*.g.dart
+*.freezed.dart
+
+# Example app build outputs
+example/.dart_tool/
+example/build/
+example/.packages

@@ -1,0 +1,27 @@
+name: jam_server_sdk
+description: A comprehensive Flutter SDK for Jam Server - Firebase alternative with AI capabilities
+version: 2.2.2
+homepage: https://github.com/jamteches/jam-server
+repository: https://github.com/jamteches/jam-server
+issue_tracker: https://github.com/jamteches/jam-server/issues
+documentation: https://api.jamteches.com/docs
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+
+flutter:
