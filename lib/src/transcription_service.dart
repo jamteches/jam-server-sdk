@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'models.dart';
 import 'jam_client.dart';
 
 /// Transcription service for audio/video transcription
